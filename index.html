@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLANète B</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!--Ici est le code pour la barre de navigation (header)-->
+<header>
+
+    <nav class="navbar">
+        <div class="navbar__items">
+            <div class="navbar__logo">
+                <p>B🌿</p>
+            </div>
+            <ul class="navbar__links">
+                <li>
+                    <a href="#acceuil">Acceuil</a>
+                </li>
+                <li>
+                    <a href="#apropos">À propos</a>
+                </li>
+                <li>
+                    <a href="#services">Nos Services</a>
+                </li>
+                <li>
+                    <a href="#activites">Activités</a>
+                </li>
+                <li>
+                    <a href="#temoignages">Témoignages</a>
+                </li>
+            </ul>
+            <a class="navbar__btn" href="#joindre">Nous joindre</a>
+        </div>
+    </nav>
+    
+</header>
+<!--Ici est le code pour le corps de la page (body)-->
+<body>
+
+    <!--Ici est le code pour la section d'acceuil du site-->
+    <section class="acceuil">
+        <div class="acceuil__content">
+            <div class="acceuil__text-block">
+                <h1 class="acceuil__title" id="acceuil">Rejoignez notre lutte pour la planète🌱</h1>
+                <p class="acceuil__text">Ensemble, nous pouvons faire la différence.</p>
+                <button class="acceuil__btn-info">
+                    En savoir plus
+                </button>
+                <button class="acceuil__btn-agir">
+                    Agir maintenant
+                </button>
+            </div>
+            <div class="acceuil__image">
+                <img src="./assets/images/foret.jpg">
+            </div>
+        </div>
+    </section>
+
+    <!--Ici est le code pour la section <<À propos>> du site-->
+    <section>
+        <h1 class="text__center" id="apropos">À propos</h1>
+        <p class="text__center">
+            Nous sommes une ONG dédiée à la protection de notre environnement.
+            Notre mission est de sensibiliser et d'agir pour un monde plus durable.
+        </p>
+        <div class="card">
+            <div class="card__content">
+                <div class="about__card">
+                    <h2>Notre Mission</h2>
+                    <p>Nous croyons en une approche collaborative pour préserver les ressources de la planète.</p>
+                    <p>⚪Équipe ONG</p>
+                </div>
+            </div>
+            <div class="card__content">
+                <div class="about__card">
+                    <h2>Notre Vision</h2>
+                    <p>Unir les communautés pour un avenir écologique.</p>
+                    <p>⚪Équipe ONG</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Ici est le code pour la section <<Services>> du site-->
+    <section class="green__bg">
+        <h1 class="title__lighter" id="services">Services</h1>
+        <div class="card">
+            <div class="card__content">
+                <div class="about__card">
+                    <h2>Éducation</h2>
+                    <p>Sensibilisation à l'environnement et ateliers collectifs.</p>
+                </div>
+            </div>
+            <div class="card__content">
+                <div class="about__card">
+                    <h2>Projets</h2>
+                    <p>Mise en oeuvre de projets écologiques.</p>
+                </div>
+            </div>
+            <div class="card__content">
+                <div class="about__card">
+                    <h2>Coopération</h2>
+                    <p>Collaboration avec d'autres ONG et comunautés.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Ici est le code pour la section <<Activités>> du site-->
+    <section>
+        <div class="activites">
+            <div>
+                <h1 id="activites">Liste des activités</h1>
+                <p>Découvrez nos activités mensuelles.</p>
+            </div>
+            <div class="activittes__list">
+                <p class="activites__text"><span>🌿Atelier de jardinage</span><span> - 15 Mars</span></p>
+                <p class="activites__text"><span>🌍Journée mondiale de l'eau</span><span> - 22 Mars</span></p>
+                <p class="activites__text"><span>🌳Plantation d'arbres</span><span> - 05 Avril</span></p>
+            </div>
+        </div>
+    </section>
+
+    <!--Ici est le code pour la section <<Témoignages>> du site-->
+    <section class="green__bg">
+        <div class="card">
+            <div class="card__content">
+                <div class="about__card">
+                    <p>👤 Anne</p>
+                    <p>Cette ONG change vraiment les choses.</p>
+                </div>
+            </div>
+            <div class="card__content">
+                <div class="about__card">
+                    <p>👤 Pierre</p>
+                    <p>Je suis fier de contribuer à cette cause.</p>
+                </div>
+            </div>
+            <div class="card__content">
+                <div class="about__card">
+                    <p>👤 George</p>
+                    <p>On a besoin de s'activer collectivement pour sauver la planète!</p>
+                </div>
+            </div>
+            
+            <h1 class="title__lighter" id="temoignages">Témoignages</h1>
+        </div>
+    </section>
+
+    <!--Ici est le code pour la section <<Contactez-nous>> du site-->
+    <section>
+        <h1 class="text__center" id="joindre">Contactez-nous</h1>
+        <div class="contacts">
+            <div class="about__contacts">
+                <form>
+                    <label class="contacts__form__label" for="nom">Nom</label>
+                    <input type="text" id="nom" placeholder="Entrez votre nom"/>
+                </form>
+                <form>
+                    <label class="contacts__form__label" for="email">Email</label>
+                    <input type="email" id="email" placeholder="Entrez votre email"/>
+                </form>
+                <form>
+                    <label class="contacts__form__label" for="message">Message</label>
+                    <input type="text" id="message" placeholder="Votre message"/>
+                </form>
+            </div>
+        </div>
+        <div class="contacts__btn">
+            <button class="contacts__btn__send">
+                Envoyer
+            </button>
+        </div>
+    </section>
+</body>
+
+<!--Ici est le code pour le pied de page (footer)-->
+<footer>
+    <a href="#">Liens rapides</a>
+    <p>|</p>
+    <a href="#">À propos de nous</a>
+    <p>|</p>
+    <a href="#">Nous contacter</a>
+    <p>|</p>
+    <a href="#">Suivez-nous sur les réseaux sociaux</a>
+    <a class="footer__btn" href="#">Engagez-vous avec nous</a>
+</footer>
+
+</html>

@@ -1,1 +1,1 @@
-Ce dossier contient mon projet 1 du cours de web 2.
+Ce repository contient mon code html, mon code css et mes assets de mon site.
